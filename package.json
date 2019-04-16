@@ -1,0 +1,25 @@
+{
+  "name": "mitasks",
+  "version": "0.0.1",
+  "description": "An elegant office task tracker & reporter",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "htlm5",
+    "css3",
+    "ES6",
+    "sqlite",
+    "google charts",
+    "glitch"
+  ],
+  "author": "me.kumar.saraboji@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "sqlite3": "^4.0.6"
+  }
+}

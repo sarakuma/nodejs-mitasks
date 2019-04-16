@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>miTasks</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Cute+Font|Fascinate+Inline|Marck+Script|Schoolbell|Pacifico|Oxygen" rel="stylesheet">
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>miTasks - tracker & reporter</h1>
+        </header>
+        <main>
+            <section id="top">
+                <aside id="create-task">
+                    <form id="create-form">
+                        <input type="text" id="title" name="title" maxlength="40" placeholder="title" title="40 characters max" required>
+                        <input type="text" id="requestor" name="requestor" maxlength="40" placeholder="requestor name"
+                            title="40 characters max" required>
+                        <textarea cols="30" id="details" name="details" rows="4" maxlength="140" placeholder="details"
+                            title="140 characters max" required></textarea>
+                        <input type="text" id="remarks" name="remarks" maxlength="40" placeholder="remarks, if any"
+                            title="40 characters max">
+                        <button type="submit" name="create-btn" id="create-btn" value="submit">Create a task</button>
+                    </form>
+                    <button name="deleteall-btn" id="deleteall-btn" value="deleteall-btn">Delete all tasks</button>
+                </aside>
+                <aside id="charts">
+                    <h5>charts</h5>
+                </aside>
+            </section>
+            <section id="maintain-task">
+                <article id="to-dos">
+                    <div class="title"><h3>To-dos</h3></div>
+                    <div class="content"></div>
+                </article>
+                <article id="in-progress">
+                    <div class="title">
+                        <h3>In-progress</h3>
+                    </div>
+                    <div class="content"></div>
+                </article>
+                <article id="pending">
+                    <div class="title">
+                        <h3>Pending</h3>
+                    </div>
+                    <div class="content"></div>
+                </article>
+                <article id="cancelled">
+                    <div class="title">
+                        <h3>Cancelled</h3>
+                    </div>
+                    <div class="content"></div>
+                </article>
+                <article id="deleted">
+                    <div class="title">
+                        <h3>Deleted</h3>
+                    </div>
+                    <div class="content"></div>
+                </article>
+                <article id="completed">
+                    <div class="title">
+                        <h3>Completed</h3>
+                    </div>
+                    <div class="content"></div>
+                </article>
+            </section>
+            <section id="stats-table">
+            </section>
+        </main>
+        <footer>
+            <h6><a href="http://sarakuma.net">JSnista</a></h6>
+        </footer>
+        <script src="/client.js"></script>
+    </body>
+</html>
