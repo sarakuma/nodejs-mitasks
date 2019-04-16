@@ -63,6 +63,7 @@ main {
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
+    align-items: center;
 }
 
 #create-task {
@@ -71,6 +72,10 @@ main {
     padding: 10px;
     margin: 10px 0px;
     background-color: #F5EEF8;
+}
+
+#top > aside:last-child {
+    margin-left: 100px;
 }
 
 #charts {
